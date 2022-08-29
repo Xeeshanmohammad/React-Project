@@ -1,7 +1,7 @@
 import React from 'react'
-import './expenseData.css'
+import '../Expenses/expenseData.css'
 
-function ExpenseData(props) {
+const ExpenseData = (props)=> {
     const month = props.date.toLocaleString("en-US", { month: "long" });
   const year = props.date.getFullYear();
   const day = props.date.toLocaleString("en-US", { day: "2-digit" });
